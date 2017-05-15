@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Random Quote Generator</title>
+	<link href="main.css" type="text/css" rel="stylesheet">
+</head>
+<body ng-app="quoteMod" ng-controller="quoteCtrl">
+	<header>
+		<h1>Friends Random Quote Generator</h1>
+		<nav>
+			<ul>
+				<li><a href="/rachel">Rachel</a></li>
+				<li><a href="/ross">Ross</a></li>
+				<li><a href="/monica">Monica</a></li>
+				<li><a href="/chandler">Chandler</a></li>
+				<li><a href="/phoebe">Phoebe</a></li>
+				<li><a href="/joey">Joey</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div ng-view="">
+			<p>Loading...</p>
+		</div>
+	</main>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
