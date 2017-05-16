@@ -22,6 +22,6 @@ app.config(function($routeProvider) {
 		templateUrl: 'views/joey.html'
 	})
 	.otherwise({
-		template: 'Pick a Friend!'
+		template: '<div id="selection"><p>Pick a Friend!</p></div>'
 	})
 });

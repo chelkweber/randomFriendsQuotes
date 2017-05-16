@@ -2,6 +2,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	background-color: #B468ff;
 } 
 
 header {
@@ -10,7 +11,13 @@ header {
 }
 
 header h1 {
-	
+	font-size: 24px;
+	font-weight: normal;
+	color: #FEFEFF;
+}
+
+header a {
+	text-decoration: none;
 }
 
 header nav ul {
@@ -21,18 +28,30 @@ header nav ul {
 
 header nav ul li {
 	display: inline;
+	margin: -1% 0%;
+	padding: 2%;
 }
 
 header nav ul a {
 	text-decoration: none;
+	color: #303239;
 }
 
 header nav ul a:hover {
-	color: red;
+	color: #FEFEFF;
 }
 
-header nav ul a:selected {
-	color: blue;
+#selection {
+	height: 100vh;
+	background-image: url(img/frame.jpg);
+	background-position:bottom;
+	background-repeat: no-repeat;
+}
+
+#selection p {
+	font-size: 24px;
+	padding-top: 25%;
+	color: #303239;
 }
 
 .character-page {
@@ -40,4 +59,7 @@ header nav ul a:selected {
 	margin: 0 auto;
 }
 
-
+.character-page .name {
+	color: #F8E481;
+}
+}
